@@ -9,7 +9,7 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input'; 
 import { Label } from '@/components/ui/label'; 
 
-const FALLBACK_AVATAR = "https://static.wikia.nocookie.net/prettylittleliars/images/6/65/Fitz_%282%29.jpg/revision/latest/scale-to-width-down/985?cb=20120515121752";
+const FALLBACK_AVATAR = "./public/avatar-fallback.svg";
 
 export default function DashboardPage() {
   const { data: user, isLoading, isError, error } = useProfile();
